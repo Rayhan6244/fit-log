@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getAll, type Workout } from "@/lib/api";
-import { Stats } from "@/components/stats";
+import { Stats } from "@/components/Stats";
 import Image from "next/image";
 import logoImg from "../assets/banner.png";
 

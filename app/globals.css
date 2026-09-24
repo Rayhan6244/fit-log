@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { @apply bg-bg text-neutral-200 font-sans; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition disabled:opacity-50 disabled:cursor-not-allowed; }
+.btn-primary { @apply bg-accent text-black hover:brightness-110; }
+.btn-outline { @apply border border-line text-white hover:bg-white/5; }
+.pill { @apply rounded-full bg-accent px-2.5 py-0.5 text-[11px] font-bold uppercase text-black; }
